@@ -5,6 +5,11 @@ The application accepts a comma-separated list of IMDb URLs and retrieves data s
 It then presents this information in a clean and organized table format and allows the user to export the scraped data as a .csv file. 
 The application is built using Node.js, ExpressJs, EJS, Bootstrap, Axios, and Cheerio.
 
+> **Note:** It is uncertain whether this application will continue to work in the future,
+> as IMDb has the capability to change the accepted headers for each request.
+> Additionally, they may modify the CSS classes that contain the data I was extracting using Cheerio.
+> Also i need to mention that this project is intended for educational purposes only.
+
 ## Features
 
 - Accepts IMDb URLs: You can input a list of IMDb URLs for TV shows, separated by commas.
