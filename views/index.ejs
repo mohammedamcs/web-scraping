@@ -1,0 +1,19 @@
+<% layout('/layout/main') -%>
+
+    <div class="row mt-5">
+        <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/images/img.jpg" alt="Card image cap" style="height: 350px;">
+                <div class="card-body">
+                    <form action="/show" method="post">
+                        <div class="form-group mb-3">
+                            <label for="inputAddress">Enter one or multiple imdb urls separated by coma</label>
+                            <input type="text" class="form-control" id="inputAddress" name="urls" placeholder="eg: url1,url2..." required>
+                        </div>
+                        <button type="submit" class="btn btn-success">Generate Data</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
