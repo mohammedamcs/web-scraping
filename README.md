@@ -8,6 +8,7 @@ The application is built using Node.js, ExpressJs, EJS, Bootstrap, Axios, and Ch
 > **Note:** It is uncertain whether this application will continue to work in the future,
 > as IMDb has the capability to change the accepted headers for each request.
 > Additionally, they may modify the CSS classes that contain the data I was extracting using Cheerio.
+> Also i need to mention that this project is intended for educational purposes only.
 
 ## Features
 
