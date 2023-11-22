@@ -19,6 +19,7 @@ The application is built using Node.js, ExpressJs, EJS, Bootstrap, Axios, and Ch
 
 ## Overview
 <img src ="./screenShots/web-scraping-overview.png">
+<img src ="./screenShots/web-scraping-overview2.png">
 
 ## Demo
 > This gif shows a brief overview of the project, and it may take a while to load!
